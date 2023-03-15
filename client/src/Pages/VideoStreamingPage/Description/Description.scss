@@ -1,0 +1,26 @@
+.description-container {
+  background-color: rgb(21,21,27);
+  border-radius: 10px;
+  max-height: 200px;
+  font-size: 15px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+
+  .description-text {
+    white-space: pre-wrap;
+    padding-left: 0.5em;
+    a {
+      color: rgb(109,109,113);
+      padding-left: 0.5em;
+      text-decoration: none;
+      &:hover{
+        color: #1E75FF;
+      }
+    }
+  }
+
+
+}

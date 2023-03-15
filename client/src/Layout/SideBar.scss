@@ -1,0 +1,150 @@
+.SideBar {
+  background-color: #1C1C24;
+  position: fixed;
+  width: 16%;
+  height: 81%;
+  padding-top: 1%;
+  padding-left: 10px;
+  padding-bottom: 10%;
+  margin-top: 57px;
+  display: block;
+  flex-direction: column;
+  color: rgba(248, 247, 247, 0.66);
+  font-size: 12px;
+
+  &.Hidden {
+    display: none;
+  }
+
+  .User {
+    display: flex;
+    background-color: #30303a;
+    border-radius: 8px;
+    border: 1px solid darkgrey;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 13px;
+
+    a {
+      color: dimgrey;
+      text-decoration: none;
+    }
+
+    .avatar {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      margin-top: 6px;
+      margin-left: 10px;
+      object-fit: cover;
+
+    }
+
+    .Name {
+      display: flex;
+      flex-direction: column;
+      margin-left: 42px;
+      margin-top: -25px;
+      color: rgba(248, 247, 247, 0.66);
+      font-size: 9px;
+
+      .username {
+        font-family: Arial, serif;
+        font-weight: normal;
+        font-size: 9px;
+        color: dimgrey;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .container-public-home {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    height: 14%;
+    margin-bottom: 8%;
+
+
+
+    p {
+      margin-top: -12px;
+      margin-left: 23px;
+    }
+
+    a {
+      color: lightgrey;
+      text-decoration: none;
+
+    }
+  }
+
+  .container-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    height: 14%;
+    margin-top: -13%;
+
+    .subscrições{
+      margin-top: -21px;
+    }
+
+    p {
+      margin-top: -12px;
+      margin-left: 23px;
+    }
+
+    a {
+      color: lightgrey;
+      text-decoration: none;
+    }
+  }
+
+  .Tags {
+    display: flex;
+    flex-direction: column;
+
+
+    .tag {
+
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    button {
+      background-color: #1C1C24;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      border-radius: 4px;
+      color: lightgrey;
+      font-family: 'Josefin Sans', sans-serif;
+      padding: 4px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .container-home-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15%;
+    margin-top: 80%;
+    cursor: pointer;
+    position: sticky;
+    margin-bottom: 2em;
+    a {
+      color: lightgrey;
+      text-decoration: none;
+    }
+
+    p {
+      margin-top: -12px;
+      margin-left: 23px;
+    }
+  }
+}
+

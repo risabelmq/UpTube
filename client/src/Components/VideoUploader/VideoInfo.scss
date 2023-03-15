@@ -1,0 +1,364 @@
+.video-details {
+  margin-left: 200px;
+  width: 85%;
+  .upload-video-details {
+    background-color: rgb(22,21,27);
+    border-radius: 20px;
+    height: 600px;
+
+    .upload-video-details-container {
+      padding: 20px;
+      margin: 0 10px 50px 10px;
+
+      .upload-video-details-header {
+        display: flex;
+        margin-bottom: 15px;
+        justify-content: space-between;
+      }
+
+      .upload-video-details-header-left {
+        margin-bottom: 1.5em;
+
+        h4 {
+          margin-bottom: 10px;
+          color: rgb(238,238,240);
+        }
+
+        p {
+          color: rgb(106,106,117);
+          font-size: 14px;
+
+        }
+      }
+
+      .upload-video-details-header-right {
+        display: flex;
+        font-size: 14px;
+
+        .upload-video-details-header-right-icon {
+          margin-right: 10px;
+          margin-top: 5px;
+          color: rgb(238,238,240);
+
+        }
+
+        p {
+          color: rgb(238,238,240);
+
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+
+        .upload-video-details-header-right-id {
+          background-color: rgb(17,16,20);
+          height: 30px;
+          border-radius: 10px;
+          width: 120px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          p {
+            color: rgb(118,116,128);
+
+          }
+
+        }
+      }
+
+      .upload-video-details-thumbs {
+        margin-bottom: 10px;
+        display: flex;
+
+        .upload-video-details-thumbs-thumb-container {
+          width: 100%;
+          min-height: 10em;
+          min-width: 15em;
+          margin-right: 15px;
+          position: relative;
+
+          .upload-video-details-thumbs-thumb-tooltip {
+            position: absolute;
+            display: inline-block;
+            overflow: hidden;
+            top: -25%;
+            width: 100%;
+            color: rgb(106,106,117);
+            text-align: center!important;
+            z-index: 1;
+            font-size: 12px;
+            border: 1px solid rgb(27,27,33);
+            background-color: rgb(22,21,27);
+            border-radius: 10px;
+            padding: 5px;
+
+            &:before {
+              content: "";
+              position: absolute;
+              transform: rotate(45deg);
+              background-color: rgb(22,21,27);
+              border-bottom: 1px solid rgb(27,27,33);
+              border-right: 1px solid rgb(27,27,33);
+              padding: 2.5px;
+              bottom: -15%;
+              right: 50%;
+            }
+
+            &:hover {
+              visibility: visible;
+            }
+          }
+
+          .upload-video-details-thumbs-thumb {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+            cursor: pointer;
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+
+            &:hover {
+              border: solid 2px rgb(0,84,253);
+            }
+          }
+        }
+
+        .upload-video-details-thumbs-border-active {
+          border: solid 2px rgb(0,84,253);
+          border-radius: 20px;
+
+          .upload-video-details-thumbs-thumb {
+
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+
+          }
+        }
+      }
+
+      .upload-video-details-data {
+        .upload-video-details-data-title {
+          margin-bottom: 10px;
+          color: rgb(238,238,240);
+
+        }
+
+        .upload-video-details-data-video-title {
+          margin-bottom: 10px;
+
+
+          input {
+            background-color: rgb(14,13,16);
+            width: 33.33%;
+            color: rgb(226,236,255);
+            border: none;
+            border-radius: 7px;
+            padding: 7px;
+          }
+        }
+
+        .description-limit {
+          color: red;
+        }
+
+        .upload-video-details-data-video-description {
+          input {
+            background-color: rgb(14,13,16);
+            color: rgb(226,236,255);
+            border: none;
+            border-radius: 7px;
+            width: 100%;
+            padding: 10px 0 100px 10px;
+          }
+        }
+
+        .upload-video-details-data-video-description-limit {
+          position: relative;
+          width: 100%;
+          margin-bottom: 15px;
+
+          .upload-video-details-data-video-description-limit-container {
+            position: absolute;
+            right: 0;
+          }
+        }
+      }
+
+      .upload-video-details-tags {
+        width: 100%;
+
+        .upload-video-details-tags-title {
+          color: rgb(238,238,240);
+
+          margin-bottom: 10px;
+        }
+
+        .upload-video-details-tags-list {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: baseline;
+
+          .upload-video-details-tags-tag {
+            color: rgb(250,250,251);
+            border: 1px solid rgb(41,41,49);
+            padding-left: 1em;
+            padding-right: 1em;
+            font-size: 12px;
+            border-radius: 10%;
+            margin: 5px 5px 5px 0px;
+
+            &:hover {
+              border: 1px solid rgb(46,89,246);
+
+            }
+          }
+
+          .upload-video-details-tags-list-plus {
+            svg {
+              color: rgb(118,116,128);
+
+              &:hover {
+                color: rgb(226,236,255);
+              }
+            }
+          }
+
+          .upload-video-details-tags-tag, .upload-video-details-tags-list-plus {
+            margin: 5px 10px 10px 0;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .upload-video-details-button {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+
+        .upload-video-details-button-container {
+          input {
+            background-color: rgb(25,90,255);
+            border-radius: 20px;
+            color: rgb(226,236,255);
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+
+            &:hover {
+              background-color: #326BFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .video-upload-add-tag {
+    width: 100%;
+    height: 120%;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .video-upload-add-tag-container {
+      background-color: rgb(22,21,27);
+      width: 65%;
+      height: 300px;
+      z-index: 3;
+      border: 1px solid rgb(31,31,38);
+      position: absolute;
+      top: 40%;
+      right: 8%;
+
+      .video-upload-add-tag-container-two {
+        position: relative;
+        margin: 10px;
+
+        .video-upload-add-tag-container-two-header {
+          display: flex;
+          justify-content: center;
+          margin: 10px 0 30px 0;
+        }
+
+        .video-upload-add-tag-container-leave {
+          cursor: pointer;
+          position: absolute;
+          top: 0;
+          right: 10px;
+          color: rgb(118,116,128);
+
+          &:hover {
+            color: rgb(46,89,246);
+          }
+        }
+
+        .video-upload-add-tag-container-tag-add {
+          display: flex;
+          margin: 60px 0 60px 0;
+
+          .video-upload-add-tag-container-tag-add-text {
+            width: 50%;
+            margin-right: 20px;
+            background-color: rgb(22,21,27);
+            color: rgb(226,236,255);
+            border: none;
+            border-radius: 7px;
+            padding: 7px;
+          }
+
+          .video-upload-add-tag-container-tag-add-btn {
+            input {
+              background-color: rgb(25,90,255);
+              border-radius: 20px;
+              color: rgb(226,236,255);
+              border: none;
+              cursor: pointer;
+              padding: 10px;
+
+              &:hover {
+                background-color: #326BFFFF;
+              }
+            }
+          }
+        }
+
+        .video-upload-add-tag-container-tag-list {
+          .video-upload-add-tag-container-tag-list-title {
+            font-size: 14px;
+          }
+
+          .video-upload-add-tag-container-tags-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            .video-upload-add-tag-container-tags-list-tag-container {
+              margin: 10px 10px 10px 0;
+              border: 1px solid rgb(118,116,128);
+              padding: 5px;
+              display: flex;
+              align-items: flex-end;
+
+              svg {
+                margin-left: 5px;
+                font-size: 12px;
+                cursor: pointer;
+                color:  rgb(118,116,128);;
+
+                &:hover {
+                  color: rgb(46,89,246);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,232 @@
+.container-homepage {
+  display: flex;
+  flex-direction: column;
+
+  .container-home {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 23%;
+    color: white;
+
+    .container-geral {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+
+      .container-videos {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 20%;
+        color: black;
+        background-color: dimgrey;
+        position: absolute;
+        margin-left: 200px;
+      }
+
+      .recomendations {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background-color: dimgrey;
+        margin-left: 190px;
+      }
+
+
+    }
+
+
+    .channels-containers-wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 197px;
+      height: 458px;
+      margin: 6%;
+      justify-content: space-between;
+
+
+      .container-channels {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: #1C1C24;
+        flex-wrap: wrap;
+
+
+        .list {
+          display: flex;
+          flex-direction: row;
+
+
+            p.channel-id {
+              display: flex;
+              width: 60%;
+              height: 26px;
+              margin-top: calc(100% - 103%);
+              position: absolute;
+              margin-left: 23%;
+              font-size: 9pt;
+            }
+        }
+
+        .title {
+          display: flex;
+          flex-direction: column;
+
+          margin-top: 15px;
+          width: 100%;
+          color: lightgrey;
+
+          .channel-list {
+
+            .photo-channel {
+              display: flex;
+              width: 180px;
+              margin: auto;
+              padding-top: 7px;
+
+
+              .photo-chan {
+                object-fit: cover;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+              }
+
+              .channel {
+                font-size: 9pt;
+                color: lightgray;
+                margin-top: 9px;
+              }
+            }
+          }
+
+          .title-chan{
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px solid dimgrey;
+          }
+
+          h3 {
+            margin-top: 0;
+            margin-left: 11px;
+            font-size: 14px;
+          }
+
+          .suggestions-icon {
+            margin-left: 40px;
+          }
+        }
+
+        .see-more-btn {
+          background-color: #30303a;
+          border-radius: 0 0 10px 10px;
+          width: 198px;
+          margin-left: -1px;
+          margin-top: 12px;
+          padding-bottom: 1px;
+          padding-top: 3px;
+        }
+
+        .pagination {
+          h3 {
+            margin-top: 7px;
+            text-align: center;
+            font-size: 14px;
+            color: lightgrey;
+          }
+        }
+      }
+
+      .container-channels-2 {
+        border-radius: 15px;
+        background-color: #1C1C24;
+
+        .chan-thumb {
+          display: flex;
+          border: 1px solid dimgray;
+          border-radius: 10px;
+          width:150px;
+          margin: 15px 5px 15px 23px;
+
+          video{
+            border-radius: 10px;
+          }
+
+
+          img {
+            width: 175px;
+            height: 100px;
+            border-radius: 10px 10px 0 0;
+          }
+        }
+
+        .channel-bio{
+          display: flex;
+          margin-left:50px;
+          font-size: 10px;
+          margin-top: 0;
+        }
+
+        .title {
+          position: relative;
+          text-align: left;
+          width: 100%;
+          height: 24px;
+          margin-top: 5%;
+          color: lightgrey;
+          border-bottom: 1px solid dimgrey;
+
+          h3 {
+            margin-top: 0;
+            text-align: center;
+            font-size: 14px;
+          }
+        }
+
+        .add-channel {
+          display: flex;
+          .id {
+            display: flex;
+            margin-left:10px;
+
+          .photo-channel-2 {
+            display: flex;
+            height: 30px;
+          }
+
+            .channel-id{
+              margin-left: 10px;
+              margin-top: 12px;
+              margin-bottom: 0;
+            }
+
+            .photo-chan-2 {
+              border: 2px solid #1C1C24;
+              border-radius: 50%;
+              margin-top: 5px;
+              width: 25px;
+              height: 25px;
+
+            }
+
+          }
+
+          h4 {
+            margin-top: 133px;
+            margin-left: 78px;
+            color: lightgrey;
+            font-size: 10px;
+          }
+        }
+      }
+
+    }
+  }
+}
