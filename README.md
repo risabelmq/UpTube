@@ -1,4 +1,4 @@
-![UpTube](uptube.png)
+<img width="649" alt="uptube" src="https://user-images.githubusercontent.com/87763388/225467017-d0111820-9a89-40af-9f0e-8d4dcd422b82.png">
 
 # UpTube
 
@@ -19,18 +19,19 @@ In the beginning of this project, the client had already created a set of mockup
 - [User Channels](#UserChannels)
 - [Video Uploading and ffmpeg](#VideoUploadingandffmpeg)
 - [Technologies](#Technologies)
+- [Homepage Mockup](#HomepageMockup)
 
 
 ## Methodology
 
 We employed Scrum methodology with weekly sprints to manage our work on this project. Our work was organized into the following phases:
 
-    Planning and functional specification
-    MySQL Workbench database structure
-    Specification of the API structure - routes/endpoints and respective parameters
-    Implementation of the main application functionalities, including login, registration, home page, video upload, and profile
-    Two interim progress updates with the client
-    Project delivery and final presentation
+- Planning and functional specification
+- MySQL Workbench database structure
+- Specification of the API structure - routes/endpoints and respective parameters
+- Implementation of the main application functionalities, including login, registration, home page, video upload, and profile
+- Two interim progress updates with the client
+- Project delivery and final presentation
 
 By following this structured approach, we were able to deliver a high-quality solution that met the client's expectations. Our methodology allowed us to stay on track and make adjustments as needed, resulting in a successful outcome for all involved.
 
@@ -99,3 +100,9 @@ Overall, our video page provides a robust set of features to enhance the video v
 - Node
 - React
 - Postman
+
+## Homepage Mockup
+(You may see the remaining mockups in the mockups folder)
+<img width="1600" alt="Homepage" src="https://user-images.githubusercontent.com/87763388/225467203-6bf6b796-3660-4476-8dee-c66f002c2b05.png">
+
+
