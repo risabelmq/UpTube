@@ -1,5 +1,6 @@
-<img width="649" alt="uptube" src="https://user-images.githubusercontent.com/87763388/225467017-d0111820-9a89-40af-9f0e-8d4dcd422b82.png">
-
+<p align="center">
+<img height="150" alt="uptube" src="https://user-images.githubusercontent.com/87763388/225467017-d0111820-9a89-40af-9f0e-8d4dcd422b82.png">
+</p>
 # UpTube
 
 This project was developed as the final project, of the UpSkills 2022 - Class 1 - Javascript Frontend React, alongside with two other colleagues of mine.
