@@ -103,7 +103,9 @@ Overall, our video page provides a robust set of features to enhance the video v
 - Postman
 
 ## Homepage Mockup
+
 (You may see the remaining mockups in the mockups folder)
+
 <img width="1600" alt="Homepage" src="https://user-images.githubusercontent.com/87763388/225467203-6bf6b796-3660-4476-8dee-c66f002c2b05.png">
 
 
