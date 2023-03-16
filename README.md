@@ -36,6 +36,7 @@ In the beginning of this project, the client had already created a set of mockup
 (You may see the remaining mockups in the mockups folder)
 
 <img width="1600" alt="Homepage" src="https://user-images.githubusercontent.com/87763388/225467203-6bf6b796-3660-4476-8dee-c66f002c2b05.png">
+
 ## Methodology
 
 We employed Scrum methodology with weekly sprints to manage our work on this project. Our work was organized into the following phases:
