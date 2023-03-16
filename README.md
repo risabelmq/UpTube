@@ -14,16 +14,28 @@ In the beginning of this project, the client had already created a set of mockup
 
 ## Reference
 
+- [Technologies](#Technologies)
+- [Homepage Mockup](#HomepageMockup)
 - [Methodology](#Methodology)
 - [System requirements](#SystemRequirements)
 - [Authentication](#Authentication)
 - [Video Listing](#VideoListing)
 - [User Channels](#UserChannels)
 - [Video Uploading and ffmpeg](#VideoUploadingandffmpeg)
-- [Technologies](#Technologies)
-- [Homepage Mockup](#HomepageMockup)
 
+## Technologies
 
+- XAMPP
+- Maria DB
+- Node
+- React
+- Postman
+
+## Homepage Mockup
+
+(You may see the remaining mockups in the mockups folder)
+
+<img width="1600" alt="Homepage" src="https://user-images.githubusercontent.com/87763388/225467203-6bf6b796-3660-4476-8dee-c66f002c2b05.png">
 ## Methodology
 
 We employed Scrum methodology with weekly sprints to manage our work on this project. Our work was organized into the following phases:
@@ -94,19 +106,3 @@ To help users discover related content, the page also displays a list of related
 The page also displays important video metrics such as view count, as well as the number of likes and dislikes the video has received. These metrics provide insight into the video's popularity and help users gauge its overall reception. Additionally, users can report videos that violate our community guidelines or terms of service by clicking the "Report" button.
 
 Overall, our video page provides a robust set of features to enhance the video viewing experience, while also promoting community engagement and adherence to our platform's standards.
-
-## Technologies
-
-- XAMPP
-- Maria DB
-- Node
-- React
-- Postman
-
-## Homepage Mockup
-
-(You may see the remaining mockups in the mockups folder)
-
-<img width="1600" alt="Homepage" src="https://user-images.githubusercontent.com/87763388/225467203-6bf6b796-3660-4476-8dee-c66f002c2b05.png">
-
-
